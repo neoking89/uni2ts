@@ -20,7 +20,6 @@ from hydra.utils import instantiate
 from omegaconf import DictConfig
 from torch.utils.data import Dataset, DistributedSampler
 
-from uni2ts.common import hydra_util  # noqa: hydra resolvers
 from uni2ts.data.builder import DatasetBuilder
 
 

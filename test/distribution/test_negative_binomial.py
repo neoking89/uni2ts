@@ -19,7 +19,6 @@ from torch.distributions import NegativeBinomial as TorchNegativeBinomial
 
 from uni2ts.distribution.negative_binomial import (
     NegativeBinomial,
-    NegativeBinomialOutput,
 )
 
 NB_PARAMS = [

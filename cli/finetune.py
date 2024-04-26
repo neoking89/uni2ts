@@ -22,7 +22,6 @@ from hydra.utils import call, get_class, instantiate
 from omegaconf import DictConfig
 from torch.utils.data import Dataset, DistributedSampler
 
-from uni2ts.common import hydra_util  # noqa: hydra resolvers
 
 
 class DataModule(L.LightningDataModule):
